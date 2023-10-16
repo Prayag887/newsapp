@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_custom.xml -->
+<!-- profile_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252532"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:text="Spokesperson"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImageSP"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spokesperson" />
+
+    <TextView
+        android:id="@+id/profileNameSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageSP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Ms Januka Pandit"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileBioSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileNameSP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="The role of the spokesperson in the Department of Agriculture is to serve as the official representative and communication link between the department and the public, media, and stakeholders. The spokesperson is responsible for conveying accurate and timely information regarding agricultural policies, programs, initiatives, and developments. They handle media inquiries, prepare press releases, organize press conferences, and provide statements and interviews to the media. The spokesperson plays a crucial role in promoting transparency, managing public relations, addressing concerns, and ensuring effective communication about the department's activities and objectives."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCloseDialogSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileBioSP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/green"
+        android:text="Close"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+

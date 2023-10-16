@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AgroNepal</string>
+    <string name="stats">Statistics</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="notice">Notice</string>
+    <string name="customer_service">About Us</string>
+    <string name="market">Market</string>
+</resources>

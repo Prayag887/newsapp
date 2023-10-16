@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/home"
+        android:title="@string/home">
+    </item>
+
+    <item
+        android:id="@+id/tab_notice"
+        android:icon="@drawable/notice"
+        android:title="@string/notice">
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/tab_stats"-->
+<!--        android:icon="@drawable/stats"-->
+<!--        android:title="@string/stats">-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/tab_news"
+        android:icon="@drawable/news"
+        android:title="@string/news">
+    </item>
+
+    <item
+        android:id="@+id/tab_customer_service"
+        android:icon="@drawable/customer_service"
+        android:title="@string/customer_service">
+    </item>
+</menu>

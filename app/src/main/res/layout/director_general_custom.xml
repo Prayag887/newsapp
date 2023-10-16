@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_custom.xml -->
+<!-- profile_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252532"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:text="Director General"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImageDirector"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/director_doa" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageDirector"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Dr Hari Bahadur KC"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileBioDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="The Director General in the Department of Agriculture is a key leadership position responsible for overseeing the department's operations. They provide strategic guidance, develop agricultural policies, manage budgets, engage with stakeholders, promote agricultural development, ensure regulatory compliance, and represent the department in international collaborations. Their role is vital in driving sustainable agricultural practices, enhancing productivity, and achieving overall growth in the agricultural sector."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCloseDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileBioDirector"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/green"
+        android:text="Close"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+

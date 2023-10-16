@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="error">#FFB8B8</color>
+    <color name="success">#96F399</color>
+    <color name="green">#05C270</color>
+    <color name="rice">#F8F5D3</color>
+    <color name="wheat">#F7DAA4</color>
+    <color name="millet">#5C5444</color>
+    <color name="corn">#F6C915</color>
+    <color name="paddy">#99bb44</color>
+    <color name="cardview">#27273C</color>
+    <color name="darkthemebackground">#1C1C27</color>
+
+</resources>

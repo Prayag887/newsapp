@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_custom.xml -->
+<!-- profile_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252532"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:text="Deputy Director General"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImageDDG"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deputy_director_doa" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageDDG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Dr Shanta Karki"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileBioDDG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="The Deputy Director General in the Department of Agriculture assists the Director General in managing operations, implementing policies, engaging stakeholders, coordinating resources, and representing the department. They play a vital role in supporting the overall functioning of the department, ensuring policy implementation, facilitating interdepartmental coordination, and representing the department in external engagements."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCloseDialogDDG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileBioDDG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/green"
+        android:text="Close"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+

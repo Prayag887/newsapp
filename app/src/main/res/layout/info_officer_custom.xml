@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_custom.xml -->
+<!-- profile_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252532"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:text="Information Officer"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImageIO"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/info_officer_doa" />
+
+    <TextView
+        android:id="@+id/profileNameIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageIO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Mr Sunil Kumar Singh"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileBioIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileNameIO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="The role of an information officer in the Department of Agriculture is to manage the flow of information within the department and ensure effective communication with stakeholders. They are responsible for collecting, organizing, and disseminating relevant information about agricultural policies, programs, research, and initiatives. Information officers may create content for websites, newsletters, and other communication channels. They also handle internal communications within the department, providing updates to staff and ensuring that information is distributed in a timely and accurate manner. The information officer plays a critical role in promoting transparency, facilitating knowledge sharing, and enhancing communication between the department, stakeholders, and the public."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCloseDialogIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileBioIO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/green"
+        android:text="Close"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+
